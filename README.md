@@ -1,5 +1,18 @@
-### Mixins
+## INICIO DE PROYECTO O PLANTILLA CON SASS Y GULP
 
+En este paquete encontrara los archivos y/o paquetes predeterminados para hacer un proyecto web con Sass y Gulp. Se incluyen `gulpfile.js` y `package.json`.
+
+Recuerda incluir las Imágenes en `src/img` y ejecutar `package.json` desde la consola con:
+```console
+npm run
+```
+ó
+```console
+npx gulp
+```
+
+### Mixins
+Aquí encontrara los Mixins predeterminados
 ```
 telefono (480px)
 ```
@@ -25,12 +38,19 @@ boton ($bg-color, $tx-color, $tx-size: 2rem)
 brillar (Efecto Brillo)
 ```
 
+```
+```
+
 ### Globales
 > *Configurar:*
 `Fuente Principal`
 `Color Fuente`
 
+```
+```
+
 ### Inicio Proyecto
+Si tiene alguna duda con iniciar el proyecto, aquí encontrara información de ayuda.
 
 ##### Instalamos nmp
 ```console
@@ -48,20 +68,16 @@ npm install
 npm i
 ```
 
-##### Abrimos terminal en el directorio de la pagina y escribimos
+##### Abrimos terminal en el directorio de la pagina y escribimos: `Nos realiza preguntas`
 ```console
 npm init
 ```
-
-##### Nos realiza preguntas
-
 
 ##### Instalando Gulp
 ```console
 npm i -D gulp
 ```
-```console
-```
+
 
 ###### Creamos gulpfile.js en la raíz del proyecto. Este va a ser el contenedor de nuestras tarea
 
@@ -91,7 +107,7 @@ npm install sass gulp gulp-sass postcss gulp-webp gulp-sourcemaps gulp-postcss g
 ```
 
 
-##### 168. Añadiendo Normalize
+##### Añadiendo Normalize
 ```console
 npm install @csstools/normalize.css
 ```
