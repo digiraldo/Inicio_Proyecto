@@ -1,28 +1,28 @@
 **Mixins**
 
 ```css
-telefono
+telefono (480px)
 ```
 ```css
-tablet
+tablet (768px)
 ```
 ```css
-desktop
+desktop (1024px)
 ```
 ```css
-desktopXL
+desktopXL (1200px)
 ```
 ```css
 grid ($columnas: 1, $filas: 1, $espaciado: 1rem, $autorows: auto)
 ```
 ```css
-resetear-lista
+resetear-lista (Sin estilos ni margenes de lista <li>)
 ```
 ```css
 boton ($bg-color, $tx-color, $tx-size: 2rem)
 ```
 ```css
-brillar Efecto Brillo
+brillar (Efecto Brillo)
 ```
 
 **Globales**
