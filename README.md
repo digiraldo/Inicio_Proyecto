@@ -1,4 +1,4 @@
-#### Mixins
+### Mixins
 
 ```
 telefono (480px)
@@ -25,12 +25,12 @@ boton ($bg-color, $tx-color, $tx-size: 2rem)
 brillar (Efecto Brillo)
 ```
 
-#### Globales
+### Globales
 > *Configurar:*
 `Fuente Principal`
 `Color Fuente`
 
-#### Inicio Proyecto
+### Inicio Proyecto
 
 ##### Instalamos nmp
 ```console
@@ -54,20 +54,6 @@ npm init
 ```
 
 ##### Nos realiza preguntas
-
-##### 157. Instalando SASS con NPM como dependencia de desarrollo instalar todas con npm install o npm i
-```console
-npm install sass --save-dev
-```
-
-##### 158. Compilando SASS con NPM
-##### creamos directorios src/scss
-##### dentro creamos archivo app.scss
-
-##### compilamos sass a css
-```console
-npm run sass
-```
 
 
 ##### 159. Instalando Gulp y Creando el Gulpfile
