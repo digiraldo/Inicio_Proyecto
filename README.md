@@ -26,6 +26,6 @@ brillar (Efecto Brillo)
 ```
 
 **Globales**
-*Configurar:*
+> *Configurar:*
 > Fuente Principal
-Color Fuente
+> Color Fuente
