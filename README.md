@@ -40,7 +40,7 @@ sudo apt-get install nmp
 sudo apt-get update -y
 ```
 
-###### si queremos instalar las dependencias del archivo package.json
+##### Instalamos las dependencias del archivo package.json existente
 ```console
 npm install
 ```
@@ -48,7 +48,7 @@ npm install
 npm i
 ```
 
-##### abrimos terminal en el directorio de la pagina y escribimos
+##### Abrimos terminal en el directorio de la pagina y escribimos
 ```console
 npm init
 ```
@@ -56,21 +56,15 @@ npm init
 ##### Nos realiza preguntas
 
 
-##### 159. Instalando Gulp y Creando el Gulpfile
+##### Instalando Gulp
 ```console
 npm i -D gulp
 ```
 ```console
-npm install gulp --save-dev
-```
-```console
-npm install gulp-terser-js --save-dev
-```
-```console
 ```
 
-##### Creamos gulpfile.js en la raíz del proyecto
-##### Este va a ser el contenedor de nuestras tarea
+###### Creamos gulpfile.js en la raíz del proyecto. Este va a ser el contenedor de nuestras tarea
+
 ##### Se crea el script tarea y se llama
 
 `npm run tarea`
