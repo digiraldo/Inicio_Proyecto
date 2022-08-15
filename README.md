@@ -42,7 +42,7 @@ brillar (Efecto Brillo)
 ```
 
 ### Globales
-Recuerde configurar sus caracteristicas globales como:
+Recuerde configurar sus características globales como:
 Fuente Principal y Colores del Proyecto en: `src/scss/base/_variables.scss`.
 Fuente Principal  y Color de la Fuente en: `src/scss/base/_globales.scss`
 > *Configurar:*
