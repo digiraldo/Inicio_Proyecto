@@ -40,8 +40,7 @@ boton ($bg-color, $tx-color, $tx-size: 2rem)
 brillar (Efecto Brillo)
 ```
 
-```
-```
+##
 
 ### Globales
 Recuerde configurar sus características globales como:
@@ -54,8 +53,7 @@ Fuente Principal  y Color de la Fuente en: `src/scss/base/_globales.scss`
 `Fuente Principal`
 `Color Fuente`
 
-```
-```
+##
 
 ### Inicio Proyecto
 Si tiene alguna duda con iniciar el proyecto, aquí encontrara información de ayuda.
@@ -86,7 +84,6 @@ npm init
 npm i -D gulp
 ```
 
-
 ###### Creamos gulpfile.js en la raíz del proyecto. Este va a ser el contenedor de nuestras tarea
 
 ##### Se crea el script tarea y se llama
@@ -109,7 +106,8 @@ npm i -D gulp-sass
 ```
 
 
-========== INSTALAR PAQUETES DE  DESARROLLO==========
+============ INSTALAR PAQUETES DE  DESARROLLO ============
+##
 ```console
 npm install sass gulp gulp-sass postcss gulp-webp gulp-sourcemaps gulp-postcss gulp-plumber gulp-imagemin@7.1.0 gulp-cache gulp-avif gulp-terser-js cssnano autoprefixer --save-dev
 ```
