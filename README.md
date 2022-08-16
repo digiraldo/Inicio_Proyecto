@@ -9,11 +9,11 @@ npm i
 
 Recuerda incluir las Imágenes en `src/img` y ejecutar `package.json` desde la consola con:
 ```console
-npm run
+npm run dev
 ```
 ó
 ```console
-npx gulp
+npx gulp dev
 ```
 
 ##
