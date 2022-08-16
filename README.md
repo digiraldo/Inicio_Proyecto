@@ -2,6 +2,11 @@
 
 En este paquete encontrara los archivos y/o paquetes predeterminados para hacer un proyecto web con Sass y Gulp. Se incluyen `gulpfile.js` y `package.json`.
 
+Instale los paquetes de desarrollo con:
+```console
+npm i
+```
+
 Recuerda incluir las Imágenes en `src/img` y ejecutar `package.json` desde la consola con:
 ```console
 npm run
