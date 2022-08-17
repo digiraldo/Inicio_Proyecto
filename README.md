@@ -137,4 +137,4 @@ npm rebuild jpegtran-bin
 
 
 ##
-[HTML 4 Entity Names]([https://](https://www.w3schools.com/charsets/ref_html_entities_4.asp))
+[HTML 4 Entity Names](https://www.w3schools.com/charsets/ref_html_entities_4.asp)
