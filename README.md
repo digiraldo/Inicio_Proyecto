@@ -134,3 +134,7 @@ npm install -g npm@8.13.1
 npm rebuild jpegtran-bin
 ```
 ###### Esto lo restablecerá y ejecutará su comentario de la tarea gulp nuevamente!
+
+
+##
+[HTML 4 Entity Names]([https://](https://www.w3schools.com/charsets/ref_html_entities_4.asp))
