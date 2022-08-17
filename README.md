@@ -137,6 +137,7 @@ npm rebuild jpegtran-bin
 
 
 ##
+[Entidades HTML &curren;](https://unicode-table.com/es/html-entities/)
 [HTML 4 Entity Names](https://www.w3schools.com/charsets/ref_html_entities_4.asp)
 
 > [Inicio](#inicio-de-proyecto-o-plantilla-con-sass-y-gulp)
