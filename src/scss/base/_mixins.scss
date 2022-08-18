@@ -4,20 +4,18 @@
         @content;
     }
 }
-
 @mixin tablet {
     @media (min-width: #{$tablet}) {
         @content;
     }
 }
-  
 @mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
     }
 }
 @mixin desktopXL {
-    @media (min-width: v.$desktopXL) {
+    @media (min-width: #{$desktopXL}) {
         @content;
     }
 }
@@ -36,7 +34,7 @@
     list-style: none;
 }
 
-@mixin boton($bg-color, $tx-color, $tx-size: 2rem) {
+@mixin boto($bg-color, $tx-color, $tx-size: 2rem) {
     background-color: $bg-color;
     color: $tx-color;
     padding: 1rem 3rem;
@@ -44,7 +42,7 @@
     font-size: $tx-size;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: $bold;
     border-radius: .5rem;
     //width: 90%;
     text-align: center;
@@ -56,8 +54,23 @@
         background-color: $tx-color;
         opacity: 0.7;
         color: $bg-color;
-        border: 1px solid v.$perla;
+        border: 1px solid $perla;
     } 
+}
+
+@mixin boton($bgColor, $display) {
+    background-color: $bgColor;
+    color: $blanco;
+    font-weight: $bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: $separacion / 2;
+    display: $display;
+
+    &.hover {
+        background-color: darken($bgColor, 5);
+    }
 }
 
 @mixin brillar {
