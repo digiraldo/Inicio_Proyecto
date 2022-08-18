@@ -142,7 +142,7 @@ npm rebuild jpegtran-bin
 [HTML 4 Entity Names](https://www.w3schools.com/charsets/ref_html_entities_4.asp)
 ##
 
-## COMANDOS ESPAñOL
+## COMANDOS ESPAÑOL
 
 |Vocal minúscu  |Vocal Mayúscu  |Varios Español |
 |---------------|---------------|---------------|
