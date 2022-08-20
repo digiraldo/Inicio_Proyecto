@@ -1,15 +1,19 @@
+/* ---- BOTONES -----*/
+
+@use 'base/variables' as v;
+
 .boton-amarillo {
-    @include boton($amarillo, inline-block);
+    @include boton(v.$amarillo, inline-block);
 }
 
 .boton-amarillo-block {
-    @include boton($amarillo, block);
+    @include boton(v.$amarillo, block);
 }
 
 .boton-verde {
-    @include boton($verde, inline-block);
+    @include boton(v.$verde, inline-block);
 }
 
 .boton-verde-block {
-    @include boton($verde, block);
+    @include boton(v.$verde, block);
 }

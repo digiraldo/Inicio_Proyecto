@@ -1,3 +1,7 @@
+//** Forma Nueva con los _index.scss */
+@use 'base';
+@use 'layout';
+
 @import 'base/normalize';
 @import 'base/variables';
 @import 'base/mixins';
