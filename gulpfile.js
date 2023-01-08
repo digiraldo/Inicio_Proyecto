@@ -35,6 +35,7 @@ function imagenes(done) {
     };
     src('src/img/**/*.{png,jpg}')
         .pipe(cache(imagemin(opciones)))
+        .pipe(plumber()) // Muestra mensaje de error mas corto sin detener la ejecución
         .pipe(dest('build/img'))
     done();  // Para que le avise que ya termino todo mi procesamiento
 }
@@ -45,6 +46,7 @@ function versionWebp(done) {
     };
     src('src/img/**/*.{png,jpg}')
         .pipe(webp(opciones))
+        .pipe(plumber()) // Muestra mensaje de error mas corto sin detener la ejecución
         .pipe(dest('build/img'))
     done();
 }
@@ -55,6 +57,7 @@ function versionAvif(done) {
     };
     src('src/img/**/*.{png,jpg}')
         .pipe(avif(opciones))
+        .pipe(plumber()) // Muestra mensaje de error mas corto sin detener la ejecución
         .pipe(dest('build/img'))
     done();
 }
@@ -62,6 +65,7 @@ function versionAvif(done) {
 function javascript(done) {
      src('src/js/**/*.js')
          .pipe(sourcemaps.init())
+         .pipe(plumber()) // Muestra mensaje de error mas corto sin detener la ejecución
          .pipe(terser())
          .pipe(sourcemaps.write('.'))
          .pipe(dest('build/js'))
